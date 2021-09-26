@@ -60,4 +60,8 @@ public class TodoList {
 		}
 		return false;
 	}
+
+	public int getSize() {
+		return list.size();
+	}
 }
